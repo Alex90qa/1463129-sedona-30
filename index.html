@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
     <head>
         <meta charset="utf-8" />
         <title>HTML Academy: Седона</title>
@@ -7,12 +7,16 @@
         <link rel="icon" href="img/icon/favicon.svg" type="image/svg+xml">
         <link rel="apple-touch-icon" href="img/icon/favicon180.png">
         <link rel="manifest" href="favicons.webmanifest">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link href="normalize.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
     </head>
-    <body>
-        <header>
-            <nav>
-                <a><img src="img/logo.svg" width="138" height="70" alt="Логотип Седона" /></a>
-                <ul>
+    <body class="page-body">
+        <header class="main-header">
+            <nav class="main-navigation">
+                <a class="main-header-logo"><img src="img/logo.svg" width="138" height="70" alt="Логотип Седона" /></a>
+                <ul class="site-navigation">
                   <li><a href="blank.html">Информация</a></li>
                   <li><a href="blank.html">Фото и видео</a></li>
                   <li><a href="blank.html">Карта штата</a></li>
@@ -20,95 +24,95 @@
                 </ul>
             </nav>
         </header>
-        <main>
-            <section>
+        <main class="main-content">
+            <section class="Welcome-sedona">
                 <h1>Добро пожаловать в седону</h1>
                 <img src="img/welcome.png" alt="Добро пожаловать в седону"/>
             </section>
-            <section>
+            <section class="introduction">
                 <h2>Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
                 <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
             </section>
-            <section>
+            <section class="content-city">
                 <h2>Настоящий городок</h2>
                 <span>— №1 —</span>
                 <p>Седона - не аттракцион для туристов, там течёт своя жизнь</p>
                 <img src="img/cityview.jpg" width="800" height="256" alt="Городской вид" />
             </section>
-            <section>
-                <div>
+            <section class="advantages-white-background">
+                <div class="house">
                     <h3>Жильё</h3>
                     <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
                 </div>
-                <div>
+                <div class="burger">
                     <h3>Еда</h3>
                     <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
                 </div>
-                <div>
+                <div class="souvenir">
                     <h3>Сувениры</h3>
                     <p>Не только китайского, но и местного производства!</p>
                 </div>
             </section>
-            <section>
+            <section class=" content-devil's-bridge">
                 <h2>Там есть мост дьявола</h2>
                 <span>— №2 —</span>
                 <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
                 <img src="img/canyon.jpg" width="800" height="256" alt="Каньен" />
             </section>
-            <section>
+            <section class="advantages sedona">
                 <h2>Преимущества Седоны</h2>
-                <ul>
-                    <li>
+                <ul class="advantages-list">
+                    <li class="advantages-item">
                         <p>небольшая площадь</p>
                         <p>— №3 —</p>
                         <p>все достопримечательности находятся очень близко</p>
                     </li>
-                    <li>
+                    <li class="advantages-item">
                         <p>красивая дорога</p>
                         <p>— №4 —</p>
                         <p>ехать в седону из лас-вегаса совсем не скучно!</p>
                     </li>
-                    <li>
+                    <li class="advantages-item">
                         <p>мало туристов</p>
                         <p>— №5 —</p>
                         <p>большинство едет в гранд каньон и толпится там</p>
                     </li>
                 </ul>
             </section>
-            <section>
+            <section class="popup-hotel">
                 <h2>Форма поиска гостиницы</h2>
                 <p>Заинтересовались?</p>
                 <p>Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения в Седоне</p>
                 <!-- Здесь будет форма поиска гостиныцы -->
             </section>
-            <section>
+            <section class="map">
                 <h2>Карта</h2>
                 <!-- Здесь будет карта -->
             </section>
         </main>
-        <footer>
-            <section>
+        <footer class="footer">
+            <section class="footer-visit">
                 <h2>Как нас найти</h2>
                 <p>
                     <a href="blank.html">#Visitsedona</a><br />
-                    Телефон: <a href="tel:+74956660166">+7 (495) 666-01-66</a>
+                    Телефон: <a class="contacts-phone" href="tel:+74956660166">+7 (495) 666-01-66</a>
                 </p>
             </section>
-            <section>
+            <section class="footer-social">
                 <h2>Cоцсети</h2>
-                <ul>
-                    <li>
+                <ul class="footer-social-list">
+                    <li class="footer-social-tw">
                         <a href="#">Твиттер</a>
                     </li>
-                    <li>
+                    <li class="footer-social-fb">
                         <a href="#">Фейсбук</a>
                     </li>
-                    <li>
+                    <li class="footer-social-yt">
                         <a href="#">Ютуб</a>
                     </li>
                 </ul>
             </section>
-            <p>
+            <p class="htmlacademy-block">
                 Разработано:
                 <a href="https://htmlacademy.ru">HTML Academy</a>
             </p>

@@ -1,0 +1,28 @@
+:root {
+--white: #FFFFFF;
+--black: #000000;
+--resting-blue:#81B3D2;
+--guidance-blue:#669EC0;
+--pressed-blue:#5496BD;
+--resting-brown:#766357;
+--guidance-brown:#604E43;
+--pressed-brown:#503E33;
+--search-box-resting:#F2F2F2;
+--search-box-guidance:#EBEBEB;
+--html-acad-resting:#231F20;
+--html-acad-guidance:#81B3D2;
+--html-acad-pressed:#BDBBBC;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans";
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--black);
+  text-transform: uppercase;
+  background-color: var(--white);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
