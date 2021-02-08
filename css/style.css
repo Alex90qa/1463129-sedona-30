@@ -12,6 +12,7 @@
 --html-acad-resting:#231F20;
 --html-acad-guidance:#81B3D2;
 --html-acad-pressed:#BDBBBC;
+--background-advantege:#EEEEEE;
 }
 
 body {
@@ -23,6 +24,180 @@ body {
   color: var(--black);
   text-transform: uppercase;
   background-color: var(--white);
+  background-image: url("../img/backgroundphoto.jpg");
   background-position: top center;
   background-repeat: no-repeat;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+           /* header */
+.main-header{
+  background-color: var(--white);
+}
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--black);
+  background-color: transparent;
+}
+
+.site-navigation {
+  text-decoration: none;
+}
+
+
+
+.site-navigation a {
+  color: var(--black);
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: var(--resting-blue);
+}
+            /* main-content */
+
+.main-content {
+  background-color: var(--white);
+}
+
+.background-logo {
+  width: 456.65px;
+  height: 350.88px;
+}
+
+.introduction{
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.content-city{
+  background-color: var(--resting-blue);
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.subject-text{
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.advantages-white-background {
+  background-color: var(--white);
+}
+
+.house {
+  font-size: 21px;
+  line-height: 21px;
+  background-image: url("../img/icon1.svg");
+  position: absolute;
+  width: 74.69px;
+  height: 72px;
+}
+
+.slogan{
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.burger {
+  font-size: 21px;
+  line-height: 21px;
+  background-image: url("../img/icon2.svg");
+  position: absolute;
+  width: 75px;
+  height: 70px;
+}
+
+.souvenir{
+  font-size: 21px;
+  line-height: 21px;
+  background-image: url("../img/icon3.svg");
+  position: absolute;
+  width: 64px;
+  height: 77px;
+}
+
+.advantages-grey-background {
+  background-color: var(--background-advantege);
+}
+
+.advantages-item {
+  font-size: 21px;
+  line-height: 21px;
+  list-style-type: none;
+}
+
+.popup-hotel {
+  font-size: 30px;
+  line-height: 24px;
+}
+
+.slogan-popup {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.footer {
+  background-color: var(--white);
+}
+
+.footer-visit {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.footer a {
+  color: var(--black);
+}
+
+.footer-social-list {
+  text-align: center;
+}
+
+.footer-social-list a:hover,
+.footer-social-list a:focus {
+  color: var(--guidance-blue);
+}
+
+.footer-social-tw{
+  position: relative;
+  display: inline-block;
+  width: 46px;
+  height: 48px;
+  margin-right: 6px;
+  vertical-align: top;
+  background-color: #81b3d2;
+}
+
+.footer-social-fb {
+  position: relative;
+  display: inline-block;
+  width: 46px;
+  height: 48px;
+  margin-right: 6px;
+  vertical-align: top;
+  background-color: #81b3d2;
+}
+
+.footer-social-yt {
+  position: relative;
+  display: inline-block;
+  width: 46px;
+  height: 48px;
+  margin-right: 6px;
+  vertical-align: top;
+  background-color: #81b3d2;
+}
+
+.htmlacademy-block a:hover,
+.htmlacademy-block a:focus {
+  color: var(--resting-blue)
 }
