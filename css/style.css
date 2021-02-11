@@ -1,18 +1,18 @@
 :root {
---white: #FFFFFF;
---black: #000000;
---resting-blue:#81B3D2;
---guidance-blue:#669EC0;
---pressed-blue:#5496BD;
---resting-brown:#766357;
---guidance-brown:#604E43;
---pressed-brown:#503E33;
---search-box-resting:#F2F2F2;
---search-box-guidance:#EBEBEB;
---html-acad-resting:#231F20;
---html-acad-guidance:#81B3D2;
---html-acad-pressed:#BDBBBC;
---background-advantege:#EEEEEE;
+  --white: #ffffff;
+  --black: #000000;
+  --resting-blue: #81b3d2;
+  --guidance-blue: #669ec0;
+  --pressed-blue: #5496bd;
+  --resting-brown: #766357;
+  --guidance-brown: #604e43;
+  --pressed-brown: #503e33;
+  --search-box-resting: #f2f2f2;
+  --search-box-guidance: #ebebeb;
+  --html-acad-resting: #231f20;
+  --html-acad-guidance: #81b3d2;
+  --html-acad-pressed: #bdbbbc;
+  --background-advantege: #eeeeee;
 }
 
 body {
@@ -36,8 +36,8 @@ img {
   max-width: 100%;
   height: auto;
 }
-           /* header */
-.main-header{
+/* header */
+.main-header {
   background-color: var(--white);
 }
 
@@ -52,8 +52,6 @@ img {
   text-decoration: none;
 }
 
-
-
 .site-navigation a {
   color: var(--black);
 }
@@ -62,7 +60,7 @@ img {
 .site-navigation a:focus {
   color: var(--resting-blue);
 }
-            /* main-content */
+/* main-content */
 
 .main-content {
   background-color: var(--white);
@@ -73,59 +71,37 @@ img {
   height: 350.88px;
 }
 
-.introduction{
+.introduction {
   font-size: 14px;
   line-height: 21px;
 }
 
-.content-city{
+.content-city {
   background-color: var(--resting-blue);
   font-size: 14px;
   line-height: 21px;
 }
 
-.subject-text{
+.subject-text {
   font-size: 21px;
   line-height: 21px;
 }
 
-.advantages-white-background {
+.desc-background {
   background-color: var(--white);
 }
 
-.house {
-  font-size: 21px;
-  line-height: 21px;
-  background-image: url("../img/icon1.svg");
-  position: absolute;
-  width: 74.69px;
-  height: 72px;
-}
-
-.slogan{
+.desc {
   font-size: 14px;
   line-height: 21px;
 }
 
-.burger {
-  font-size: 21px;
+.item {
+  font-size: 14px;
   line-height: 21px;
-  background-image: url("../img/icon2.svg");
-  position: absolute;
-  width: 75px;
-  height: 70px;
 }
 
-.souvenir{
-  font-size: 21px;
-  line-height: 21px;
-  background-image: url("../img/icon3.svg");
-  position: absolute;
-  width: 64px;
-  height: 77px;
-}
-
-.advantages-grey-background {
+.advantages-background {
   background-color: var(--background-advantege);
 }
 
@@ -135,12 +111,12 @@ img {
   list-style-type: none;
 }
 
-.popup-hotel {
+.search-hotel {
   font-size: 30px;
   line-height: 24px;
 }
 
-.slogan-popup {
+.text-search-hotel {
   font-size: 14px;
   line-height: 24px;
 }
@@ -149,7 +125,7 @@ img {
   background-color: var(--white);
 }
 
-.footer-visit {
+.footer-contacts {
   font-size: 21px;
   line-height: 26px;
 }
@@ -167,37 +143,14 @@ img {
   color: var(--guidance-blue);
 }
 
-.footer-social-tw{
-  position: relative;
+.footer-social {
   display: inline-block;
   width: 46px;
   height: 48px;
-  margin-right: 6px;
-  vertical-align: top;
   background-color: #81b3d2;
 }
 
-.footer-social-fb {
-  position: relative;
-  display: inline-block;
-  width: 46px;
-  height: 48px;
-  margin-right: 6px;
-  vertical-align: top;
-  background-color: #81b3d2;
-}
-
-.footer-social-yt {
-  position: relative;
-  display: inline-block;
-  width: 46px;
-  height: 48px;
-  margin-right: 6px;
-  vertical-align: top;
-  background-color: #81b3d2;
-}
-
-.htmlacademy-block a:hover,
-.htmlacademy-block a:focus {
-  color: var(--resting-blue)
+.copytight a:hover,
+.copytight a:focus {
+  color: var(--resting-blue);
 }
