@@ -15,6 +15,10 @@
   --html-acad-guidance: #81b3d2;
   --html-acad-pressed: #bdbbbc;
   --background-advantege: #eeeeee;
+  --reiting-color: #666666;
+  --background-reiting: #F2F2F2;
+
+
 }
 /* General settings */
 body {
@@ -101,92 +105,195 @@ img {
   line-height: 21px;
 }
 /* features */
-.features{
-background-color: var(--white);
+.features {
+  background-color: var(--white);
 }
-.features-content{
+.features-content {
   background-image: url("../img/icon1.svg");
   background-repeat: no-repeat;
 }
-.features-title{
+.features-title {
   font-weight: bold;
   font-size: 21px;
   line-height: 21px;
 }
-.features-text{
+.features-text {
   font-size: 14px;
   line-height: 21px;
   color: var(--black-one);
 }
 /* advantages */
-.advantages{
-background-color: var(--background-advantege);
+.advantages {
+  background-color: var(--background-advantege);
 }
-.advantages-list{
+.advantages-list {
   list-style-type: none;
 }
 
-.advantages-title{
+.advantages-title {
   font-weight: bold;
   font-size: 21px;
   line-height: 21px;
 }
-.advantages-number{
+.advantages-number {
   font-size: 14px;
   line-height: 21px;
   color: var(--black-one);
 }
-.advantages-text{
+.advantages-text {
   font-size: 14px;
   line-height: 21px;
   color: var(--black-one);
 }
 /* search-hotel */
-.search-hotel{
-  font-weight: bold;
+.search-hotel {
   font-size: 30px;
   line-height: 24px;
 }
-.search-hotel-text{
+.search-hotel-title{
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: bold;
+}
+.search-hotel-text {
   font-size: 14px;
   line-height: 24px;
   color: var(--black-one);
+
 }
 /* map */
 
 /* footer */
-.footer{
-  bakground-color: var(--white);
+.footer {
+  background-color: var(--white);
 }
-.contacts{
+.contacts {
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;
 }
-.social{
 
-}
-.social-links-list{
+.social-links-list {
   list-style-type: none;
 }
-.social-img-twitter{
+.social-img-twitter {
   background-image: url("../img/twiter.svg");
   background-color: var(--resting-blue);
   background-repeat: no-repeat;
 }
-.social-img-facebook{
+.social-img-facebook {
   background-image: url("../img/fb.svg");
   background-color: var(--resting-blue);
   background-repeat: no-repeat;
 }
-.social-img-youtube{
+.social-img-youtube {
   background-image: url("../img/yt.svg");
   background-color: var(--resting-blue);
   background-repeat: no-repeat;
 }
 /* copytight */
-.copytight{
+.copytight {
   background-image: url("../img/logo-htmlacademy.svg");
   background-repeat: no-repeat;
 }
 
+/* catalog-selection block */
+
+.selection-block{
+ color: var(--white);
+}
+
+.infrasrtrucure-item{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.selection-block-title{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+}
+.housetype-item{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+}
+.cost-filter{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+}
+.cost-control{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/* sorting block */
+
+.sorting-block{
+  color: var(--black);
+
+}
+.sorting-range{
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
+.sorting-range-resalts{
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+}
+.sorting-range-list{
+  list-style-type: none;
+}
+.active{
+  color: var(--resting-blue);
+}
+/* result-block */
+.results-block{
+color: var(--black)
+}
+.result-item{
+  list-style-type: none;
+}
+.result-img{
+  background-color: var(--resting-blue);
+  width: 135px;
+  height: 90px;
+}
+.result-description-header{
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+}
+.details-item{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--black-one)
+}
+.blue-frame{
+  width: 110px;
+  height: 27px;
+  background-color: var(--resting-blue);
+  color: var(--white)
+}
+.brown-frame{
+  width: 142px;
+  height: 27px;
+  background-color: var(--resting-brown);
+  color: var(--white)
+}
+.rating-item{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  background-color: var(--background-reiting);
+  width: 110px;
+  height: 27px;
+  color: var(--reiting-color);
+
+}
