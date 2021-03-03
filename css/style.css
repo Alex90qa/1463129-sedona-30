@@ -23,6 +23,7 @@
 /* General settings */
 body {
   font-family: "PT Sans";
+  text-transform: uppercase;
   font-size: 14px;
   line-height: 24px;
   color: var(--black);
@@ -58,9 +59,13 @@ img {
 .site-navigation {
   list-style-type: none;
 }
-.site-navigation a:hover,
-.site-navigation a:focus {
+.site-navigation a:hover{
   color: var(--resting-blue);
+}
+.site-navigation a:active{
+  color: var(--black);
+  mix-blend-mode: normal;
+  opacity: 0.3;
 }
 
 /* main-content */
@@ -199,7 +204,7 @@ img {
 
 /* catalog-selection block */
 
-.selection-block{
+.selection{
  color: var(--white);
 }
 
@@ -209,12 +214,12 @@ img {
   line-height: 21px;
 }
 
-.selection-block-title{
+.selection-title{
   font-weight: bold;
   font-size: 16px;
   line-height: 21px;
 }
-.housetype-item{
+.house-type-item{
   font-weight: normal;
   font-size: 14px;
   line-height: 21px;
@@ -232,16 +237,16 @@ img {
 
 /* sorting block */
 
-.sorting-block{
+.sorting{
   color: var(--black);
 
 }
-.sorting-range{
+.sorting-results{
   font-weight: normal;
   font-size: 12px;
   line-height: 18px;
 }
-.sorting-range-resalts{
+.sorting-title{
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;
@@ -252,11 +257,14 @@ img {
 .active{
   color: var(--resting-blue);
 }
+.active-hotel a:visited{
+  color: var(--resting-brown);
+}
 /* result-block */
 .results-block{
 color: var(--black)
 }
-.result-item{
+.result-items{
   list-style-type: none;
 }
 .result-img{
@@ -264,12 +272,21 @@ color: var(--black)
   width: 135px;
   height: 90px;
 }
-.result-description-header{
+.item-hotel{
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;
 }
-.details-item{
+.item-hotel-condition a:hover{
+  color: var(--resting-blue)
+}
+.item-hotel-condition a:active{
+  color: var(--black);
+  mix-blend-mode: normal;
+  opacity: 0.3;
+}
+
+.item{
   font-weight: normal;
   font-size: 14px;
   line-height: 21px;
@@ -278,14 +295,28 @@ color: var(--black)
 .blue-frame{
   width: 110px;
   height: 27px;
+  font-weight: bold;
   background-color: var(--resting-blue);
   color: var(--white)
+}
+.blue-frame-condition a:hover{
+  background-color: var(--guidance-blue);
+}
+.blue-frame-condition a:active{
+  background-color: var(--pressed-blue);
 }
 .brown-frame{
   width: 142px;
   height: 27px;
+  font-weight: bold;
   background-color: var(--resting-brown);
   color: var(--white)
+}
+.brown-frame-condition a:hover{
+  background-color: var(--guidance-brown);
+}
+.brown-frame-condition a:active{
+  background-color: var(--pressed-brown);
 }
 .rating-item{
   font-weight: normal;
